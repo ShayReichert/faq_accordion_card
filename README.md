@@ -1,5 +1,7 @@
 # Frontend Mentor - FAQ Accordion Card
 
+Result here : https://shayreichert.github.io/faq_accordion_card/
+
 ![Design preview for the FAQ Accordion Card coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋

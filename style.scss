@@ -81,25 +81,34 @@
     font-weight: 700;
   }
 }
-#toggle1:checked + .reponse {
+#toggle1:checked ~ .reponse1,
+#toggle2:checked ~ .reponse2,
+#toggle3:checked ~ .reponse3,
+#toggle4:checked ~ .reponse4,
+#toggle5:checked ~ .reponse5 {
   display: block;
 }
-#toggle2:checked + .reponse {
-  display: block;
-}
-#toggle3:checked + .reponse {
-  display: block;
-}
-#toggle4:checked + .reponse {
-  display: block;
-}
-#toggle5:checked + .reponse {
-  display: block;
-}
+
 .hidden {
   position: absolute;
   left: -100vw;
 }
+#toggle1:checked ~ label .arrow1,
+#toggle2:checked ~ label .arrow2,
+#toggle3:checked ~ label .arrow3,
+#toggle4:checked ~ label .arrow4,
+#toggle5:checked ~ label .arrow5 {
+  transform: rotate(180deg);
+}
+
+#toggle1:checked ~ label .question1,
+#toggle2:checked ~ label .question2,
+#toggle3:checked ~ label .question3,
+#toggle4:checked ~ label .question4,
+#toggle5:checked ~ label .question5 {
+  font-weight: 700;
+}
+
 .arrow {
   margin-right: 15px;
   cursor: pointer;

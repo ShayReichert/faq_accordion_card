@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
 }
 
-// Mobile & Tablet
+// MOBILE & TABLET
 .gradient-bg {
   margin: auto;
   display: flex;
@@ -13,7 +14,6 @@
   min-height: 100vh;
   background: linear-gradient(0deg, hsl(240, 73%, 65%), hsl(273, 75%, 66%));
 }
-
 .main-box {
   max-width: 300px;
   height: 470px;
@@ -31,13 +31,11 @@
     position: absolute;
   }
 }
-
 .illustration-bg-pattern,
 .illustration-woman-desktop,
 .illustration-box-desktop {
   display: none;
 }
-
 .illustration-woman-mobile {
   top: -110px;
 }
@@ -69,7 +67,6 @@
   color: hsl(240, 6%, 50%);
   font-size: 13px;
 }
-
 .question-arrow {
   display: flex;
   min-width: 300px;
@@ -88,11 +85,6 @@
 #toggle5:checked ~ .reponse5 {
   display: block;
 }
-
-.hidden {
-  position: absolute;
-  left: -100vw;
-}
 #toggle1:checked ~ label .arrow1,
 #toggle2:checked ~ label .arrow2,
 #toggle3:checked ~ label .arrow3,
@@ -100,7 +92,6 @@
 #toggle5:checked ~ label .arrow5 {
   transform: rotate(180deg);
 }
-
 #toggle1:checked ~ label .question1,
 #toggle2:checked ~ label .question2,
 #toggle3:checked ~ label .question3,
@@ -108,7 +99,10 @@
 #toggle5:checked ~ label .question5 {
   font-weight: 700;
 }
-
+.hidden {
+  position: absolute;
+  left: -100vw;
+}
 .arrow {
   margin-right: 15px;
   cursor: pointer;
@@ -126,7 +120,7 @@
   border-radius: 50px;
 }
 
-// Desktop
+// DESKTOP
 @media only screen and (min-width: 768px) {
   .gradient-bg {
     width: 100%;
@@ -143,6 +137,7 @@
     position: relative;
     overflow: hidden;
   }
+
   .illustrations {
     width: 50%;
   }

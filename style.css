@@ -76,10 +76,6 @@
 #toggle5:checked ~ .reponse5 {
   display: block; }
 
-.hidden {
-  position: absolute;
-  left: -100vw; }
-
 #toggle1:checked ~ label .arrow1,
 #toggle2:checked ~ label .arrow2,
 #toggle3:checked ~ label .arrow3,
@@ -93,6 +89,10 @@
 #toggle4:checked ~ label .question4,
 #toggle5:checked ~ label .question5 {
   font-weight: 700; }
+
+.hidden {
+  position: absolute;
+  left: -100vw; }
 
 .arrow {
   margin-right: 15px;

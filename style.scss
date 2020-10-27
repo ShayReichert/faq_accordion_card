@@ -158,6 +158,19 @@
     width: 20%;
     top: 205px;
     left: -87px;
+    animation: floattingBox 2000ms backwards infinite;
+  }
+
+  @keyframes floattingBox {
+    0% {
+      transform: translateY(5px);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+    100% {
+      transform: translateY(5px);
+    }
   }
   .illustration-woman-mobile,
   .illustration-bg-pattern-mobile {
